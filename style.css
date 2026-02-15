@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Styles the entire body of the page */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif; /* Sets the font family */
+  background-color: #f0f0f0; /* Sets the background color */
+  color: #333; /* Sets the default text color */
+  margin: 0 auto; /* Centers the content within the browser window */
+  padding: 20px; /* Adds space around the content */
+}
+
+/* Styles all H1 headings */
+h1 {
+  color: #00539f; /* Sets the text color */
+  text-align: center; /* Centers the text */
+  text-shadow: 2px 2px 1px black; /* Adds a shadow effect to the text */
+}
+
+/* Styles all paragraph elements */
+p {
+  font-size: 16px; /* Sets the font size */
+  line-height: 1.5; /* Sets the spacing between lines of text */
+  border: 1px solid #ccc; /* Adds a thin border around the paragraph */
+  padding: 10px;
+}
+
+/* Styles links based on their state using pseudo-classes */
+a:link {
+  color: blue; /* Color for unvisited links */
+  text-decoration: none; /* Removes the default underline */
+}
+
+a:visited {
+  color: purple; /* Color for visited links */
+}
+
+a:hover {
+  text-decoration: underline; /* Adds an underline when hovering over a link */
+}
